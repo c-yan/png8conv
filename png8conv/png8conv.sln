@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "png8conv", "png8conv.csproj", "{E79BFD47-005A-4D69-9F2E-2242D1886E89}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageProcessingLibrary", "..\ImageProcessingLibrary\ImageProcessingLibrary.csproj", "{586F9BEB-21B6-45D4-88ED-4836F1971A4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E79BFD47-005A-4D69-9F2E-2242D1886E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E79BFD47-005A-4D69-9F2E-2242D1886E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E79BFD47-005A-4D69-9F2E-2242D1886E89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{586F9BEB-21B6-45D4-88ED-4836F1971A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{586F9BEB-21B6-45D4-88ED-4836F1971A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{586F9BEB-21B6-45D4-88ED-4836F1971A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{586F9BEB-21B6-45D4-88ED-4836F1971A4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
