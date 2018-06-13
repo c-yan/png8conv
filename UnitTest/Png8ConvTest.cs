@@ -10,7 +10,19 @@ namespace UnitTest
         [TestMethod]
         public void ConvertToTargetPathTest()
         {
-            Assert.IsTrue(Path.GetExtension(Service.ConvertToTargetPath("c:\\test\\test.bmp")) == ".png");
+            Assert.AreEqual(".png", Path.GetExtension(Service.ConvertToTargetPath("c:\\test\\test.bmp")));
+        }
+
+        [TestMethod]
+        public void AvoidCollisionPathTest1()
+        {
+            Assert.AreEqual("Data\\test[1].png", Service.AvoidCollisionPath("Data\\test.png"));
+        }
+
+        [TestMethod]
+        public void AvoidCollisionPathTest2()
+        {
+            Assert.AreEqual("Data\\hoge.png", Service.AvoidCollisionPath("Data\\hoge.png"));
         }
     }
 }
