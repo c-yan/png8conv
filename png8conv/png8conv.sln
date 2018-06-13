@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "png8conv", "png8conv.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageProcessingLibrary", "..\ImageProcessingLibrary\ImageProcessingLibrary.csproj", "{586F9BEB-21B6-45D4-88ED-4836F1971A4A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "..\UnitTest\UnitTest.csproj", "{B30B8430-877A-453D-A982-1F9621D2505B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{586F9BEB-21B6-45D4-88ED-4836F1971A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{586F9BEB-21B6-45D4-88ED-4836F1971A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{586F9BEB-21B6-45D4-88ED-4836F1971A4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B30B8430-877A-453D-A982-1F9621D2505B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B30B8430-877A-453D-A982-1F9621D2505B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B30B8430-877A-453D-A982-1F9621D2505B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B30B8430-877A-453D-A982-1F9621D2505B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
