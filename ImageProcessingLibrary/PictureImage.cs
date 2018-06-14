@@ -5,6 +5,11 @@ namespace ImageProcessingLibrary
 {
     public class PictureImage
     {
+        public int Width { get; set; }
+        public int Height { get; set; }
+        public int Stride { get; set; }
+        public byte[] Data { get; set; }
+
         public void LoadFromStream(Stream stream, IImageReader reader)
         {
             reader.LoadFromStream(stream, this);
